@@ -1,0 +1,66 @@
+<html>
+    <head>
+        <title>ARE YOU CRAZY</title>
+        <link rel="stylesheet" href="stylesheet2.css">
+        <link rel="stylesheet" href="stylesheet.css">
+
+    </head>
+
+    <body>
+        <button inputmode="button" value="YES" onclick="A1()">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span>Yes</span>
+        </button>
+        <h1 class="p">ARE YOU CRAZY?</h1>
+        <div
+            id="by"
+            style="
+            position: absolute;
+            left: 150px;
+            top: 200px;
+            width: 210px;
+            height: 210;
+            ">
+        </div>
+        <input type="color">
+
+        <div
+            id="Bn"
+            style="
+            position: relative;
+            left: 150px;
+            top: 240px;
+            width: 210px;
+            height: 210;
+            ">
+            <input type="button" value=" Buka Dong "
+                onMouseOver="A2()" />
+        </div>
+    </body>
+
+    <script type="text/javascript">
+  flag=1
+
+function A1()
+{
+alert("KASIHAN DEH!🤣")
+}
+
+function A2()
+{
+if(flag==1){
+Bn.style.top=340
+Bn.style.left=100
+flag=2}
+
+else if(flag==2){
+Bn.style.top=240
+Bn.style.left=210
+flag=1
+}
+}
+</script>
+</html>
